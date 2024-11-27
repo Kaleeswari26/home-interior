@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+</head>
+<body>
+    <div class="home">
+        <div class="home-link">
+            <a href="/projects"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+        </div>
+        <div class="home-content">
+            <div class="home-title">
+                <h2>Home In Chenni</h2>
+            </div>
+            <div class="home-images">
+                <div class="home-image">
+                    <img src="{{ url_for('static', filename='images/living h.jfif') }}" alt="Background 1">
+                    <h2>Living room</h2>
+                </div>
+                <div class="home-image">
+                    <img src="{{ url_for('static', filename='images/kitchen-h.jpg') }}" alt="Background 1">
+                    <h2>Kitchen</h2>
+                </div>
+                <div class="home-image">
+                    <img src="{{ url_for('static', filename='images/bedroom-h.jpg') }}" alt="Background 1">
+                    <h2>Bedrooom</h2>
+                </div>
+                <div class="home-image">
+                    <img src="{{ url_for('static', filename='images/balcony h.jpg') }}" alt="Background 1">
+                    <h2>Balcony</h2>
+                </div>
+            </div>
+            <div class="home-info">
+                <div class="p">
+                    <p>We are excited to launch our latest home interior project in Chennai, where we are committed to transforming living spaces into stunning reflections of our clients' unique personalities and lifestyles. Our approach blends traditional Tamil aesthetics with modern functionality, creating environments that are not only beautiful but also highly livable. By incorporating locally sourced materials, such as terracotta and bamboo, we ensure that each design is both sustainable and suited to Chennai's tropical climate. Our design philosophy emphasizes natural light and ventilation, allowing each room to breathe and flourish. We strategically place large windows and open spaces, while the use of vibrant color palettes inspired by local culture adds warmth and vibrancy to every corner. Furniture selections focus on multi-functionality, making efficient use of space without compromising on style. Artistic elements, like Tanjore paintings and intricate woodwork, will serve as focal points, enhancing the cultural narrative of each home. Additionally, we embrace the integration of smart technology, ensuring that comfort and convenience are seamlessly woven into the design. With meticulous attention to detail, our goal is to create interiors that not only meet practical needs but also resonate deeply with the spirit of Chennai, offering a harmonious blend of tradition and modernity. We look forward to bringing your dream home to life!</p>
+                </div>
+                <div class="img">
+                    <img src="{{ url_for('static', filename='images/architect-h.jpg') }}" width="400", height="300">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

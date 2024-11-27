@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>services</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="design">
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/projects">Recent Projects</a></li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tab-title">
+            <h2>What We Design</h2>
+            <h2>What We Design</h2>
+        </div>
+        <div class="tabs">
+
+            <input type = "radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+            <label for="tab1" class="tabs__label">Living Room </label>
+            <div class="tabs__content">
+                <div class="tabs__image">
+                    <div class="tabs__slider">
+                        <div class="living">
+                            <img src="{{ url_for('static', filename='images/modernliving.jpg') }}" alt="Background 1">
+                            <h2>Modern living room</h2>
+                        </div>
+
+                        <div class="living">
+                            <img src="{{ url_for('static', filename='images/smallliving.jpg') }}" alt="Background 3">
+                            <h2>Small living room</h2>
+                        </div>
+
+                        <div class="living">
+                            <img src="{{ url_for('static', filename='images/indian liv.jpg') }}" alt="Background 1">
+                            <h2>Indian living room</h2>
+                        </div>
+                        <div class="living">
+                            <img src="{{ url_for('static', filename='images/minimalistliving.jpg') }}" alt="Background 3">
+                            <h2>Minimalist living room</h2>
+                        </div>
+                        <div class="living">
+                            <img src="{{ url_for('static', filename='images/elegantliving.jpg') }}" alt="Background 2">
+                            <h2>Elegant living room</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type = "radio" class="tabs__radio" name="tabs-example" id="tab2" checked>
+            <label for="tab2" class="tabs__label">Kitchen Interiors </label>
+            <div class="tabs__content">
+                <div class="tabs__image">
+                    <div class="tabs__slider">
+                        <div class="kitchen">
+                            <img src="{{ url_for('static', filename='images/traditionalk.jpg') }}" alt="Background 1">
+                            <h2>Traditional Kitchen</h2>
+                        </div>
+                        <div class="kitchen">
+                            <img src="{{ url_for('static', filename='images/farmhouse kitchen.jpg') }}" alt="Background 1">
+                            <h2>Farmhouse Kitchen</h2>
+                        </div>
+                        <div class="kitchen">
+                            <img src="{{ url_for('static', filename='images/industrialk.jpg') }}" alt="Background 1">
+                            <h2>Industrial Kitchen</h2>
+                        </div>
+                        <div class="kitchen">
+                            <img src="{{ url_for('static', filename='images/contemporayk.jfif') }}" alt="Background 1">
+                            <h2>Contemporay Kitchen</h2>
+                        </div>
+                        <div class="kitchen">
+                            <img src="{{ url_for('static', filename='images/modernkitchen.jpg') }}" alt="Background 1">
+                            <h2>Modern Kitchen</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type = "radio" class="tabs__radio" name="tabs-example" id="tab3" checked>
+            <label for="tab3" class="tabs__label">Bedroom Interiors</label>
+            <div class="tabs__content">
+                <div class="tabs__image">
+                    <div class="tabs__slider">
+                        <div class="bedroom">
+                            <img src="{{ url_for('static', filename='images/modern b.jpg') }}" alt="Background 1">
+                            <h2>Modern Bedroom</h2>
+                        </div>
+                        <div class="bedroom">
+                            <img src="{{ url_for('static', filename='images/bohemian b.avif') }}" alt="Background 1">
+                            <h2>Bohemian Bedroom</h2>
+                        </div>
+                        <div class="bedroom">
+                            <img src="{{ url_for('static', filename='images/industiral b.jpg') }}" alt="Background 1">
+                            <h2>Industrial Bedroom</h2>
+                        </div>
+                        <div class="bedroom">
+                            <img src="{{ url_for('static', filename='images/minimal b.avif') }}" alt="Background 1">
+                            <h2>Minimalist Bedroom</h2>
+                        </div>
+                        <div class="bedroom">
+                            <img src="{{ url_for('static', filename='images/traditional b.jpg') }}" alt="Background 1">
+                            <h2>Traditional Bedroom</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input type = "radio" class="tabs__radio" name="tabs-example" id="tab4" checked>
+            <label for="tab4" class="tabs__label">Balcony Interiors</label>
+            <div class="tabs__content">
+                <div class="tabs__image">
+                    <div class="tabs__slider">
+                        <div class="balcony">
+                            <img src="{{ url_for('static', filename='images/modern bal.jpg') }}" alt="Background 1">
+                            <h2>Modern Balcony</h2>
+                        </div>
+                        <div class="balcony">
+                            <img src="{{ url_for('static', filename='images/bohemian bal.avif') }}" alt="Background 1">
+                            <h2>Bohemian Balcony</h2>
+                        </div>
+                        <div class="balcony">
+                            <img src="{{ url_for('static', filename='images/farmhouse bal.jpg') }}" alt="Background 1">
+                            <h2>Farmhouse Balcony</h2>
+                        </div>
+                        <div class="balcony">
+                            <img src="{{ url_for('static', filename='images/industrial bal.jpg') }}" alt="Background 1">
+                            <h2>Industrial Balcony</h2>
+                        </div>
+                        <div class="balcony">
+                            <img src="{{ url_for('static', filename='images/minimal bal.jpg') }}" alt="Background 1">
+                            <h2>Minimalist Balcony</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input type = "radio" class="tabs__radio" name="tabs-example" id="tab5" checked>
+            <label for="tab5" class="tabs__label">Cupboards and Wardrobes Design</label>
+            <div class="tabs__content">
+                <div class="tabs__image">
+                    <div class="tabs__slider">
+
+                        <div class="cupboard">
+                            <img src="{{ url_for('static', filename='images/farmhouse w.webp') }}" alt="Background 1">
+                            <h2>Farmhouse Cupboard & Wardrobe</h2>
+                        </div>
+
+                        <div class="cupboard">
+                            <img src="{{ url_for('static', filename='images/minimal cub.jpg') }}" alt="Background 1">
+                            <h2>Minimalist Cupboard & Wardrobe</h2>
+                        </div>
+
+                        <div class="cupboard">
+                            <img src="{{ url_for('static', filename='images/contemporay w.avif') }}" alt="Background 1">
+                            <h2>Contemporay Cupboard & Wardrobe</h2>
+                        </div>
+
+                        <div class="cupboard">
+                            <img src="{{ url_for('static', filename='images/traditional indian cupboard.jpg') }}" alt="Background 1">
+                            <h2>Traditional Indian Cupboard </h2>
+                        </div>
+
+                        <div class="cupboard">
+                            <img src="{{ url_for('static', filename='images/modern cub.jpg') }}" alt="Background 1">
+                            <h2>Modern Cupboard & Wardrobe</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

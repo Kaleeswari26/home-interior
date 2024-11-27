@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Us</title>
+</head>
+<body>
+    <div class="about-us">
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/projects">Recent Projects</a>
+                    </li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about-us" >
+                <div class="section-1">
+                    <div class="section1-title">
+                        <h2>About us</h2>
+                        <h2>About us</h2>
+                    </div>
+                    <div class="about">
+                        <div class="about-image">
+                            <img src="{{ url_for('static', filename='images/about-1.jpg') }}" class="widlap">
+                        </div>
+                        <div class="about-content">
+
+                            <p>         At Thara Interiors, we believe that your home should be a true reflection of who you are. Established in 2000, we specialize in crafting bespoke interior designs that seamlessly blend aesthetics with functionality. Our passion lies in transforming spaces into inviting havens tailored to the unique needs of each client.
+
+                                Our approach is collaborative and client-centered. We take the time to understand your lifestyle, preferences, and aspirations, ensuring that every detail resonates with your vision. From modern minimalist to timeless traditional, our diverse portfolio showcases a wide range of styles, each infused with creativity and precision.
+
+                                Sustainability is at the heart of our design philosophy. We prioritize eco-friendly materials and innovative practices that not only enhance the beauty of your space but also promote a healthier environment. Our commitment to quality craftsmanship ensures that your investment stands the test of time.
+
+                                We invite you to explore our work and discover how we can partner with you to create a space that inspires and rejuvenates. Let’s embark on this exciting journey together, turning your design dreams into reality.
+
+                                For more information or to schedule a consultation, please reach out at thara26@gmail.com or connect with us on social media platforms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-2">
+                    <div class="section2-title">
+                        <h2>What We Offer</h2><br>
+                        <h3>At Thara Interiors, we provide a comprehensive range of interior design services tailored to meet the diverse needs of our clients:</h3>
+                        </div>
+                    <div class="offer">
+                        <div class="offer-content">
+                            <div class="point point-1">
+                                <span>Custom Interior Design:</span> We craft bespoke designs that reflect your personal style and enhance your lifestyle, creating spaces that are both functional and beautiful.
+                            </div>
+                            <div class="point point-2">
+                                <span>Space Planning:</span> Our strategic layout designs maximize functionality and flow, ensuring that every square foot of your home is utilized effectively and harmoniously.
+                            </div>
+                            <div class="point point-3">
+                                <span>Consultation Services:</span> Our professional advice empowers you to navigate the complexities of design choices, enabling informed decisions that resonate with your vision.
+                            </div>
+                            <div class="point point-4">
+                                <span>Project Management:</span> With meticulous oversight from concept to completion, we ensure a seamless and stress-free experience, allowing you to focus on enjoying the transformation of your space.
+                            </div>
+                            <div class="point point-5">
+                                <span>Sustainable Solutions:</span> We specialize in eco-friendly design options that promote sustainability, ensuring that your beautiful space is also responsible and kind to the environment.
+                            </div>
+                        </div>
+                        <div class="offer-image">
+                            <img src="{{ url_for('static', filename='images/offer.jpg') }}">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-3">
+                    <div class="section3-title">
+                        <h2>Our design process - how it works</h2><br>
+                        <p>Your home is a reflection of you. From the moment you reach out, our  team is dedicated to understanding your needs and expectations. Our expert designers collaborate with you to achieve the perfect balance between aesthetics and functionality, while our project manager ensures that your budget, timeline, and quality standards are consistently met.</p>
+                        <div class="work-process">
+                            <div class="sub-images">
+                                <div class="sub-image">
+                                    <img src="{{ url_for('static', filename='images/s1.jpg') }}", width="300", height="300">
+                                    <h1><span>01</span> Capturing your expectations</h1>
+                                    <p>we listen closely to your vision and design preferences to ensure your home reflects your unique style.</p>
+                                </div>
+                                <div class="sub-image">
+                                    <img src="{{ url_for('static', filename='images/s2.jfif') }}", width="300", height="300">
+                                    <h1><span>02</span> Let’s design your dream home together</h1>
+                                    <p>Our experienced team is here to guide you through the process; let’s design your dream home together, combining your ideas with our expertise.</p>
+                                </div>
+                                <div class="sub-image">
+                                    <img src="{{ url_for('static', filename='images/s3.jpg') }}", width="300", height="300">
+                                    <h1><span>03</span> Budget efficiency and strategy</h1>
+                                    <p>With a focus on budget efficiency and strategy, we create tailored design solutions that maximize value while minimizing costs.</p>
+                                </div>
+                                <div class="sub-image">
+                                    <img src="{{ url_for('static', filename='images/s4.jpg') }}", width="300", height="300">
+                                    <h1><span>04</span> Completion handoff and warranty</h1>
+                                    <p>With every project, we emphasize a smooth completion handoff and warranty, ensuring that you have full confidence in the quality of our interior work.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    <div class="footer">
+
+
+            <div class="footer-content">
+
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <div><i class="fa-solid fa-mobile-screen"></i> 1-23456-23678-3</div>
+                    <div><i class="fa-solid fa-envelope"></i> thara26@gmail.com</div>
+                    <div><i class="fa-solid fa-location-dot"></i> 33, ABC Street, Sivakasi road, Srivilliputtur.</div>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <div>Living Room Interiors Design</div>
+                    <div>Kitchen Interiors Design</div>
+                    <div>Bedroom Interiors Design</div>
+                    <div>Balcony Interiors Design</div>
+                    <div>Cupboards and Wardrobes Design</div>
+                </div>
+                <div class="footer-links">
+                    <h3>Links</h3>
+                    <div><a href="/home">Home</a></div>
+                    <div><a href="/about">About Us</a></div>
+                    <div><a href="/projects">Recent Projects</a></div>
+                    <div><a href="/service">Services</a></div>
+                    <div><a href="/contact">Contact</a></div>
+                </div>
+                <div class="footer-follow">
+                    <div><i class="fa-brands fa-facebook"></i></div>
+                    <div><i class="fa-brands fa-whatsapp"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-solid fa-globe"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

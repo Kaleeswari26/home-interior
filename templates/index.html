@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About Us</a>
+                </li>
+                <li>
+                    <a href="/projects">Recent Projects</a>
+                </li>
+                <li><a href="/service">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="name">
+            <h1>
+                <span>T</span>
+                <span>H</span>
+                <span>A</span>
+                <span>R</span>
+                <span>A</span>
+                <span>-</span>
+                <span>I</span>
+                <span>N</span>
+                <span>T</span>
+                <span>E</span>
+                <span>R</span>
+                <span>I</span>
+                <span>O</span>
+                <span>R</span>
+                <span>S</span>
+
+            </h1>
+        </div>
+        <div class="title">
+            <h1>Your dream space starts here...!</h1>
+            <a href="/register"><button>Start Now</button></a>
+        </div>
+        <div class="slider" id="slider">
+            <figure>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='images/bg-1.avif') }}" alt="Background 1">
+                </div>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='images/bg-2.jpg') }}" alt="Background 2">
+                </div>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='images/bg-3.1.jpg ') }}" alt="Background 3">
+                </div>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='images/bg-4.jpg') }}" alt="Background 4">
+                </div>
+            </figure>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

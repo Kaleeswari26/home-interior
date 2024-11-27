@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Recent Projects</title>
+</head>
+<body>
+    <div class="projects">
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/projects">Recent Projects</a>
+                    </li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="recent-projects">
+            <div class="rp-title">
+                <h2>Recent Projects</h2>
+                <h2>Recent Projects</h2>
+            </div>
+            <div class="rp-slider">
+                <div class="rp-images">
+                    <div class="recent-project">
+                        <a href="/banglow">
+                            <img src="{{ url_for('static', filename='images/r1.jpg') }}", width="400", height="400">
+                        </a>
+                        <h3>Bunglow in Chennai</h3>
+                        <p>Our designs blend elegance with modern trends to create a sophisticated living space that resonates with your style</p>
+                    </div>
+                    <div class="recent-project">
+                        <a href="/house">
+                            <img src="{{ url_for('static', filename='images/r2.jpg') }}", width="400", height="400">
+                        </a>
+                        <h3>Home in Chennai</h3>
+                        <p>We curate a harmonious color palette that creates a serene and inviting atmosphere, enhancing the overall vibe of your kitchen</p>
+                    </div>
+                    <div class="recent-project">
+                        <a href="/apartment">
+                            <img src="{{ url_for('static', filename='images/r3.jpg') }}", width="400", height="400">
+                        </a>
+                        <h3>Apartment in Bangalore</h3>
+                        <p>Every design includes personalized touches that reflect your personality and lifestyle, making your  room truly unique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

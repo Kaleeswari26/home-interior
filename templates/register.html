@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Register</title>
+</head>
+<body>
+    <div class="registration-page">
+        <div class="container">
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about">About Us</a>
+                        </li>
+                        <li>
+                            <a href="/projects">Recent Projects</a>
+                        </li>
+                        <li><a href="/service">Services</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class="reg">
+                <div class="register" id="register">
+                    <div class="wrapper">
+                        <div class="form-login">
+                            <h2>Registration</h2>
+                            <a>
+                                <div class="input-box">
+                                    <input type="text" name="username" required id="username">
+                                    <i class="fa-solid fa-user"></i>
+                                    <label for="username">Username</label>
+                                </div>
+                                <div class="input-box">
+                                    <input type="email" name="email" required id="email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <label for="email">Email ID</label>
+                                </div>
+                                <div class="input-box">
+                                    <input type="tel" name="phone" required id="phone">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <label for="phone">Phone No</label>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" name="location" required id="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <label for="location">Location</label>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" name="pincode" required id="pincode">
+                                    <i class="fa-solid fa-road"></i>
+                                    <label for="pincode">Pincode</label>
+                                </div>
+                                <div class="button">
+                                    <a href="{{ url_for('about') }}">
+                                        <button type="submit" class="submit-button">Submit</button>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

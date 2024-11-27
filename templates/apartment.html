@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Apartment</title>
+</head>
+<body>
+    <div class="apartment">
+        <div class="apartment-link">
+            <a href="/projects"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+        </div>
+        <div class="apartment-content">
+            <div class="apartment-title">
+                <h2>Apartment In Bangalore</h2>
+            </div>
+            <div class="apartment-images">
+                <div class="apartment-image">
+                    <img src="{{ url_for('static', filename='images/living-a.jpg') }}" alt="Background 1">
+                    <h2>Living room</h2>
+                </div>
+                <div class="apartment-image">
+                    <img src="{{ url_for('static', filename='images/kitchen a.jpg') }}" alt="Background 1">
+                    <h2>Kitchen</h2>
+                </div>
+                <div class="apartment-image">
+                    <img src="{{ url_for('static', filename='images/bedroom-a.jpg') }}" alt="Background 1">
+                    <h2>Bedrooom</h2>
+                </div>
+                <div class="apartment-image">
+                    <img src="{{ url_for('static', filename='images/balconi-a.jpg') }}" alt="Background 1">
+                    <h2>Balcony</h2>
+                </div>
+            </div>
+            <div class="apartment-info">
+                <p>We are thrilled to present our latest apartment interior project in Bangalore, where our mission is to create stylish, functional, and personalized living spaces that cater to the diverse lifestyles of urban dwellers. Our design approach is a harmonious blend of contemporary aesthetics and practical living solutions, ensuring that every corner of the apartment reflects the unique tastes and needs of its residents. Our project emphasizes an open-concept layout, maximizing space and promoting a sense of flow between living, dining, and kitchen areas. The color palette is inspired by the vibrant city life, featuring warm neutrals complemented by pops of color through accessories and artwork, adding personality without overwhelming the space. Furniture selections focus on modern, multi-functional pieces that offer versatility and comfort. We prioritize sustainability by using locally sourced materials and eco-friendly finishes, contributing to a healthier living environment. </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
